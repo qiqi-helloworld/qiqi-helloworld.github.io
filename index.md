@@ -1,33 +1,4 @@
-## Welcome to visit!
-This is qiqi from machine learning and optimization group of University of Iowa. My supervisor is Prof. Tianbao Yang.
-### helloworld
+## Welcome to visit.
+This is Qi Qi(亓琪) from machine learning and optimization group of [University of Iowa](https://uiowa.edu/). My supervisor is **[Professor Tianbao Yang](https://homepage.cs.uiowa.edu/~tyng/)**. Before I joined UIowa, I received my master degree in **[University of Science and Technology of China](https://en.ustc.edu.cn/)**.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qiqi-helloworld/qiqi-helloworld.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
