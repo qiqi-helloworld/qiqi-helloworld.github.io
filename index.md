@@ -10,3 +10,6 @@ This is **Qi Qi(亓琪)** from **machine learning and optimization group** of [U
 
 ## Code
 1. [JData Competition](https://jdata.jd.com/) Python [Code](https://github.com/qiqi-helloworld/JDataCompetitionFinalCode).
+2. [Tetris Game](https://github.com/qiqi-helloworld/Tetris) code with Java
+3. Scientific Calculator code with Java.
+4. Car Template Recognization Project for Deep Learning Course.
