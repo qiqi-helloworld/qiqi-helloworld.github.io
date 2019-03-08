@@ -9,7 +9,9 @@ This is **Qi Qi(亓琪)** from **machine learning and optimization group** of [U
 3.[Weise T, Wang X, Qi Q, et al. Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features[J]. Applied Soft Computing, 2018.](https://www.sciencedirect.com/science/article/pii/S1568494618304903)
 
 ## Code
-1. [JData Competition](https://jdata.jd.com/) Python [Code](https://github.com/qiqi-helloworld/JDataCompetitionFinalCode).
-2. [Tetris Game](https://github.com/qiqi-helloworld/Tetris) code with Java
-3. Scientific Calculator code with Java.
-4. Car Template Recognization Project for Deep Learning Course.
+1. [National Jingdong JData Algorithm Contest - High Potential User Purchase Intention Prediction (JD.com)](https://jdata.jd.com/) Python [Code](https://github.com/qiqi-helloworld/JDataCompetitionFinalCode).
+2. [Car Template Recognization Project](http://myweb.uiowa.edu/kma7/final_report/report.html) for Deep Learning Course.
+3. [Tetris Game](https://github.com/qiqi-helloworld/Tetris) code with Java
+4. [Battleship Game](https://github.com/qiqi-helloworld/Battleship) code with Java
+4. [Scientific Calculator](https://github.com/qiqi-helloworld/Calculator) code with Java.
+
