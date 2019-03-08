@@ -7,3 +7,6 @@ This is **Qi Qi(亓琪)** from **machine learning and optimization group** of [U
 2.[Qi Qi, Weise T, Li B. Optimization algorithm behavior modeling: A study on the traveling salesman problem[C]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8377576)
 
 3.[Weise T, Wang X, Qi Q, et al. Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features[J]. Applied Soft Computing, 2018.](https://www.sciencedirect.com/science/article/pii/S1568494618304903)
+
+## Code
+1. (JData Competition)[https://jdata.jd.com/] Python [Code](https://github.com/qiqi-helloworld/JDataCompetitionFinalCode).
