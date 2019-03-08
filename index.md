@@ -1,5 +1,5 @@
 ## Hi, welcome to visit!
-This is **Qi Qi(亓琪)** from **machine learning and optimization group** of [University of Iowa](https://uiowa.edu/). My supervisor is **[Prof. Tianbao Yang](https://homepage.cs.uiowa.edu/~tyng/)**. Before I joined UIowa, I received my master degree in **[University of Science and Technology of China](https://en.ustc.edu.cn/)** under the supervision of **[Prof. Thomas Weise](http://iao.hfuu.edu.cn/team/director)**
+This is **Qi Qi(亓琪)** from **machine learning and optimization group** of [University of Iowa](https://uiowa.edu/). My supervisor is **[Prof. Tianbao Yang](https://homepage.cs.uiowa.edu/~tyng/)**. Before I joined UIowa, I received my master degree in **[University of Science and Technology of China](https://en.ustc.edu.cn/)** under the supervision of **[Prof. Thomas Weise](http://iao.hfuu.edu.cn/team/director)**.
 
 ## Publications
 1.[Qi, Qi, Thomas Weise, and Bin Li. "Modeling optimization algorithm runtime behavior and its applications." Proceedings of the Genetic and Evolutionary Computation Conference Companion. ACM, 2017.](http://iao.hfuu.edu.cn/images/publications/QWB2017MOARBAIA.pdf)
