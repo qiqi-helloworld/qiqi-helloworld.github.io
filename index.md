@@ -15,3 +15,8 @@ This is **Qi Qi(亓琪)** from **machine learning and optimization group** of [U
 4. [Battleship Game](https://github.com/qiqi-helloworld/Battleship) code with Java
 4. [Scientific Calculator](https://github.com/qiqi-helloworld/Calculator) code with Java.
 
+#Miscellaneous
+1. [Yi Xu](https://homepage.cs.uiowa.edu/~yxu71/)
+2. [Yan Yan](https://iemppu.github.io/index.html)
+3. [Mingrui Liu](http://homepage.cs.uiowa.edu/~mingrliu/)
+4. [Zhuoning Yuan](http://www.zhuoning.cf/)
