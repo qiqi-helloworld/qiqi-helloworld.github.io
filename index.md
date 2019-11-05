@@ -1,8 +1,4 @@
 
-
-
-.one{ width:960px; margin:0 auto;}
-</style>
 <body>
 <div class="one">
 <div id="toptitle">
