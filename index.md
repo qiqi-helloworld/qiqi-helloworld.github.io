@@ -1,13 +1,6 @@
 
 
 
-<head>
-<meta name="generator" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" type="text/css" />
-<title>Chong Liu @ UC Santa Barbara</title>
-</head>
-<style>
 .one{ width:960px; margin:0 auto;}
 </style>
 <body>
