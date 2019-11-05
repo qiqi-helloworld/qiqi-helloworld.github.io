@@ -5,7 +5,7 @@
 <h1>Chong Liu @ UC Santa Barbara</h1>
 </div>
 <table class="imgtable"><tr><td>
-<img src="cliu_icon.jpg" width="300" />&nbsp;</td>
+<img src="WechatIMG714.jpeg" width="300" />&nbsp;</td>
 <td align="left"><p><b>Chong Liu / 刘冲</b><br /></p>
 <p>Ph.D. Student<br />
 <a href="https://cs.ucsb.edu/">Department of Computer Science</a><br />
