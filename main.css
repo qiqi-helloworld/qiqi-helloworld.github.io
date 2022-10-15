@@ -62,7 +62,8 @@ hr {
   border-top: 1px solid rgba(0,0,0,.1);
 }
 
-h1,h2,h3,h4 { color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
+h1,h2,h3,h4 { margin-top: -0.3rem;
+  margin-bottom: 0.1rem; color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
 
 
 
