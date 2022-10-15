@@ -1,0 +1,102 @@
+html {
+  background-color: #ffffff;   /* eeeeee */ 
+}
+
+body { 
+  font-family: 'Lora', 'Roboto', sans-serif, HelveticaNeue-Light, Georgia, Helvetica, Georgia, Helvetica, Arial, Verdana, san-serif, Times;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  background-color: #ffffff; 
+  text-align:left; /* for IE */
+  margin-top: 100; 
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:  50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 800px;
+  letter-spacing: normal;
+}
+
+
+table{ background-color: #ffffff; }
+
+a, a:link, a:visited {
+  /* color: #1367a7; */
+  /* color: #00369f; */
+  color: #003366;
+  background:transparent ;
+  text-decoration: none;
+  cursor:pointer; 
+  background-color:none;
+}
+
+a:hover {
+  /* color: #208799; */
+  /* color: #F29105; */
+  color: #E84A27;
+  background:inherit;
+  text-decoration: none;
+}
+
+img { border: 0; 
+}
+
+
+img.rounded-corners {
+  border-radius: 50%;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+
+hr {
+  margin-top: -0.3rem;
+  margin-bottom: 0.3rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+h1,h2,h3,h4 { color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
+
+
+
+/* se { font-family: 'Lato'; } */
+se { font-family: 'Lora','Roboto', sans-serif; } 
+/* .author { 
+  color: rgb(128, 128, 128)} */
+  
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+li{
+  padding: 0.1em;
+}
+
+.smallimg {
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.smallpara {
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+.paper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 0px;
+  margin-left: 50px;
+}
