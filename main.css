@@ -82,6 +82,10 @@ li{
   margin-top:-20px;
 }
 
+ul{
+  padding: 0.1em;
+}
+
 .smallimg {
   /* margin-top: 100px;
   margin-bottom: 100px; */
