@@ -62,7 +62,7 @@ hr {
   border-top: 1px solid rgba(0,0,0,.1);
 }
 
-h1,h2,h3,h4 { margin-bottom: -1px; color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
+h1,h2,h3,h4 { margin-bottom: -1.5px; color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
 
 
 
@@ -83,7 +83,7 @@ li{
 
 ul{
   padding: 0.1em;
-  margin-bottom: -1.5px;
+  margin-bottom: -3px;
 }
 
 .smallimg {
