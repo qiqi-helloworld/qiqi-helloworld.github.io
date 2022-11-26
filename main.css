@@ -62,7 +62,7 @@ hr {
   border-top: 1px solid rgba(0,0,0,.1);
 }
 
-h1,h2,h3,h4 { margin-bottom: -1.5px; color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
+h1,h2,h3,h4 { margin-bottom: 1 px; color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
 
 
 
@@ -78,12 +78,12 @@ se { font-family: 'Lora','Roboto', sans-serif; }
 }
 li{
   padding: 0.1em;
-  margin-top: -1.5px;
+  margin-top: -1px;
 }
 
 ul{
   padding: 0.1em;
-  margin-bottom: -3px;
+  margin-bottom: -1px;
 }
 
 .smallimg {
