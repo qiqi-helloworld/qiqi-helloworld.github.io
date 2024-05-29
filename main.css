@@ -56,10 +56,10 @@ img.rounded-corners {
 
 
 hr {
-  margin-top: -0.3rem;
+  margin-top: 0.3rem;
   margin-bottom: 0.3rem;
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border: 1;
+  border-top: 2px solid rgba(0,0,0,.1);
 }
 
 h1,h2,h3,h4 { margin-bottom: 1 px; color: #003366; font-family:  'Lora','Roboto', sans-serif, Helvetica, Georgia,Arial,Verdana, san-serif, Times;}
