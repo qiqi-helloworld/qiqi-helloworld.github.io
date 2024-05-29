@@ -78,7 +78,7 @@ se { font-family: 'Lora','Roboto', sans-serif; }
 }
 li{
   padding: 0.1em;
-  margin-top: -1px;
+  margin-top: 1px;
 }
 
 ul{
