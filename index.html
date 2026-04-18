@@ -1,156 +1,323 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="generator" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="main.css" media="all" rel="stylesheet">
-<title>Qi Qi@MSL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qi Qi</title>
+    <link href="main.css" media="all" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .links {
+            margin: 15px 0;
+        }
+        .links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            clear: both;
+            margin-top: 40px;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .news-item {
+            margin-bottom: 6px;
+        }
+        .publication {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            gap: 30px;
+            line-height: 1.6;
+        }
+        .publication-image {
+            flex-shrink: 0;
+            width: 280px;
+            height: 158px;
+        }
+        .publication-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .publication-content {
+            flex: 1;
+        }
+        .publication-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .publication-authors {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 4px;
+        }
+        .publication-authors strong {
+            font-weight: 700;
+            font-style: normal;
+            color: #222;
+        }
+        .publication-year {
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .publication-desc {
+            color: #444;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .publication .venue {
+            color: #d9534f;
+            font-weight: 600;
+        }
+        .publication a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .publication a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
 </head>
-<style>
-.one{ width:960px; margin: 1 auto;}
-</style>
 <body>
-<div class="one">
-<div id="toptitle">
-<h1>Qi Qi @ META, UI </h1>
+
+<div class="header">
+    <img src="QiQi_ICON_3.jpg" alt="Qi Qi" class="profile-img">
+    <h1>Qi Qi</h1>
+    <p class="subtitle">Senior Research Scientist @ <a href="https://www.meta.ai/">Meta Superintelligence Lab</a></p>
+    <p class="subtitle">Ph.D. in Computer Science, University of Iowa</p>
+    <div class="links">
+        <a href="mailto:qiqi.ustc.china@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?user=e29oR3cAAAAJ&hl=zh-CN">Google Scholar</a> 
+        <a href="https://github.com/qiqi-helloworld/">Github</a>
+    </div>
 </div>
-<table class="imgtable"><tr><td>
-<img src="QiQi_ICON_3.jpg" width="300" />&nbsp;</td>
-<td align="left">
-<p>Senior Research Scientist<br />
-<a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/">META</a><br />
-<a href="https://uiowa.edu/">The University of Iowa</a><br />
-Menlo Park, CA, 94025 <br />
-qiqi.ustc.china@gmail.com | qiqihellometa@meta.com </br>
-<a href="https://github.com/qiqi-helloworld/"> github</a></br>
-<a href = 'https://scholar.google.com/citations?user=e29oR3cAAAAJ&hl=zh-CN'> google scholar </a> </br>
-  <b>Jump out of local minima! </b></br>
-</td></tr></table>
 
-<h2>Short Bio</h2>
-<p>
-
-I am a Senior Research Scientist at Meta Superintelligence Labs, working on post-training.
-I have received Ph.D. degree in the Department of Computer Science from the machine learning and optimization group of <a href="https://uiowa.edu/"> University of Iowa </a> under the supervision of <a href="https://homepage.cs.uiowa.edu/~tyng/">Prof. Tianbao Yang</a>. Before joined UIowa, I received master degree from <a href = "https://en.ustc.edu.cn/">University of Science and Technology of China</a> under the supervision of <a href="http://iao.hfuu.edu.cn/team/director)">Prof. Thomas Weise</a> and bachelor degree from <a href = 'http://english.qut.edu.cn'> Qingdao University of Technology.</a> </p>
-
-  
-<!--<h2>Research Interests</h2> -->
-
-<!-- <p>
-Rooted in machine learning and distributionally robust learning, my research focuses on developing efficient and robust algorithms for large-scale deep learning tasks, such as deep metric learning, contrastive learning, data imbalance problems with heavy-tailed label distributions and fairness under awareness/unawareness.
-</p> -->
-<h2>News</h2>
-<ul>
-<li> [11/22] Try our new package <a href = "https://github.com/qiqi-helloworld/ABSGD/"> ABSGD </a> for handling the general imbalanced classification by just modifying the loss and optimizer to <b>ABLoss, ABSGD/ABAdam </b>! <a href = "https://github.com/qiqi-helloworld/ABSGD/blob/main/ABSGD_tutorial.ipynb"> Tutorial! </a> </li>
-<li> [10/22] Our ABSGD achieve <b>1st in ResNet50</b> (rank 4th of 16 in total) on the <a href = 'https://wilds.stanford.edu/datasets/'>iWildCam </a> dataset in Standford <a href = 'https://wilds.stanford.edu/leaderboard/'> Wilds </a> out of distribution competition! Try our <a href='https://github.com/qiqi-helloworld/ABSGD/tree/main/wilds-competition'>Code</a>!  </li>
-<li> [08/22] Second amazing intern journey at Netflix, work with <a href = 'https://sites.google.com/view/shervinardeshir' > Shervin Ardeshir </a> and <a href = 'https://www.linkedin.com/in/mhtaghavi/' > M. Hossein Taghavi </a>  </li>
-<li> [01/22] Give an invited talk in 2022 at UberAI about AUPRC maximization. </li>
-</ul>
-
-  
-
-<h2>Packages and Competitions</h2>
-<ul>
-  <ul> <li> I am the author of <a href="./CIDPackageInfo.jpg"> CIDFLIX</a>, <a href = "https://github.com/qiqi-helloworld/ABSGD" > ABSGD </a> package and a contributor of <a href='https://github.com/Optimization-AI/LibAUC'> LibAUC </a> (impelemented the AUPRC algorithm)</li> </<ul>
-<ul> <li> Top 1 in ResNet50 (4th/16),  <a href = 'https://wilds.stanford.edu/leaderboard/'> iWildCam multi-class species classification</a>, by Standford, 10/2022, <a href='https://github.com/qiqi-helloworld/ABSGD/tree/main/wilds-competition'>[Code]</a></li> </<ul>
-<ul> <li> Top 1% (11th/4000+), <a href ="https://jdata.jd.com/"> High Potential User Purchase Intention Prediction</a>, by <a href = 'https://jdata.jd.com/html/detail.html?id=1' > JD.com </a>, <a href="https://github.com/qiqi-helloworld/JDataCompetitionFinalCode">[Code] </a> </li> </ul>
-  </ul>
-  
-<h2>Manuscripts</h2>
-
-<ul><li><b> Provable Optimization for Adversarial Fair
-Self-supervised Contrastive Learning </b>  <a href="https://arxiv.org/pdf/2406.05686">[Arxiv]</a>  <br>
-<b>Qi Qi</b>, Quanqi Hu, Qihang Lin, Tianbao Yang  </li></ul> 
-  
-
-<h2>Experiences</h2>
-  <ul><li><b>Apple, Machine Learning Intern, June - September, 2023 </b> <br />
-&#x2022; <b>Project: </b> Knowledge distillation for next-generation display content object detection <br/>
- </a> </li></ul>
-<ul><li><b>Netflix, Computer Vision Intern, June - August, 2021/2022 </b> <br />
-&#x2022;  <b>Project: </b> Imporving identity robustness for face models. <br/>
- </a> </li><ul>
-
-  
-<h2>Publications</h2>
-   <ul><li><b> QCRD: Quality-guided Contrastive Rationale Distillation for Large
-Language Models</b> <a href="https://www.arxiv.org/pdf/2405.13014">[Paper]</a>  </br> 
-Wei Wang, Zhaowei Li, Qi Xu, Yiqing Cai, Hang Song, <b>Qi Qi</b>, Ran Zhou, Zhida Huang, Tao Wang, Li Xiao.<br /><b>EMNLP 2025</b></li></ul>
- <ul><li><b>
-   AdFair-CLIP: Adversarial Fair Contrastive Language-Image Pre-training for Chest X-rays</b><a href="https://link.springer.com/chapter/10.1007/978-3-032-04978-0_2">[Paper]</a>  </br> Chenlang Yi, Zizhan Xiong, <b>Qi Qi</b>, Xiyuan Wei, Girish Bathla, Ching-Long Lin, Bobak Jack Mortazavi, Tianbao Yang <br /> <b>MICCAI 2025</b></li></ul>
-   
-  <ul><li><b> GroundingGPT:Language Enhanced Multi-modal Grounding Model </b> <a href="https://arxiv.org/pdf/2401.06071">[Paper]</a href='https://github.com/lzw-lzw/GroundingGPT'>[Code]<br />
-  Zhaowei Li, Qi Xu, Dong Zhang, Hang Song, Yiqing Cai,   <b>Qi Qi</b>, Ran Zhou, Junting Pan, Zefeng Li, Van Tu Vu, Zhida Huang, Tao Wangr<br />
-     <b>ACL 2024</b> </li></ul>
-   <ul><li><b>AUPRC: Stochastic Optimization of Area Under Precision-Recall Curve for Deep Learning with Provable Convergence</b> <a href="https://proceedings.neurips.cc/paper/2021/file/0dd1bc593a91620daecf7723d2235624-Paper.pdf">[Paper]</a><a href="https://github.com/Optimization-AI/NeurIPS2021_SOAP">[Code Package]</a> <a href='./AUPRC_Poster.pdf'> [Poster]</a> <a href ='https://docs.google.com/presentation/d/1BhYeCNWE905ZS4EXibzSvApFBIk_SBywGyIfoMIrISI/edit?usp=sharing' >[Slides]</a><br />
-  <b>Qi Qi</b>, Youzhi Luo, Zhao Xu, Shuiwang Ji, Tianbao Yang. <br />
-Proceedings of the 35th Conference on Neural Information Processing Systems (<b>NeurIPS 2021, 250+ Github Star</b>) </li></ul> 
-   <ul><li><b>A Simple and Effective Framework for Pairwise Deep Metric Learning.</b> <a href="https://arxiv.org/abs/1912.11194">[Paper]</a><a href="https://github.com/qiqi-helloworld/A-Simple-and-Effective-Framework-for-Pairewise-Distance-Metric-Learning">[Code]<a href="poster_ECCV2020.pdf">[Poster]</a> <a href="https://www.youtube.com/watch?v=Nkdbt2iP4aY"> [Video]</a><br />
- <b>Qi Qi</b>, Yan Yan, Xiaoyu Wang, Tianbao Yang. <br />
-  16th European Conference on Computer Vision (<b>ECCV 2020</b>) <br /></li></ul> 
-     <ul><li><b> ABSGD: Attentional Biased Stochastic Gradient for Imbalanced Classification.</b> <a href="https://arxiv.org/pdf/2012.06951.pdf">[Paper]</a> <a href='https://github.com/qiqi-helloworld/ABSGD'>[Code]</a><br />
-  <b>Qi Qi</b>, Yi Xu, Rong Jin, Wotao Yin, Tianbao Yang. <br /> Transactions on Machine Learning Research (<b>TMLR, 2023</b>) </li></ul>
-     <ul><li><b> Improving Identity-Robustness for Face Models </b> <a href="https://arxiv.org/pdf/2304.03838.pdf">[Paper]</a>[Code]<br />
-  <b>Qi Qi</b>, Shervin Ardershir<br />
-     The short version to appear at (<b>ICML 2023 SCIS Workshop</b>) </li></ul> 
-   <ul><li><b>Stochastic Constrained DRO with a Complexity Independent of Sample Size.</b> <a href="https://arxiv.org/abs/2210.05740">[Paper]</a>[Code]<br />
-  <b>Qi Qi</b>, Jiameng Lyu, Kung-sik Chan, Er-Wei Bai, Tianbao Yang. <br/>
-    Transactions on Machine Learning Research (<b>TMLR, 2023</b>) </li></ul>
-
-<ul><li><b>RECOVER: A Practical Online Method for Distributionally Deep Robust Optimization.</b> <a href="https://proceedings.neurips.cc/paper/2021/file/533fa796b43291fc61a9e812a50c3fb6-Paper.pdf">[Paper]</a><a href="https://github.com/qiqi-helloworld/RECOVER">[Code]</a><a href="./RECOVER_Poster.pdf">[Poster]</a> <a href="./Recover_slides_for_Neurips2021.pdf">[Slides]</a><br />
-  <b>Qi Qi</b>, Zhishuai Guo, Yi Xu, Rong Jin, Tianbao Yang. <br />
-  Proceedings of the 35th Conference on Neural Information Processing Systems (<b>NeurIPS 2021</b>) </li></ul> 
-<ul><li><b>Variance-Reduced Off-Policy Memory-Efficient Policy Search </b> <a href="https://offline-rl-neurips.github.io/pdf/31.pdf">[Paper]</a><a href="https://github.com/qiqi-helloworld">[Code]</a><br />
-  Daoming Lyu, <b>Qi Qi</b>, Mohammad Ghavamzadeh, Hengshuai Yao, Tianbao Yang, Bo Liu. <br />
-Offline Reinforcement Learning Workshop at 34th-Neural Information Processing Systems (<b>Neurips 2020 Workshop</b>) </li></ul> 
-<ul><li><b>Stochastic optimization for DC functions and non-smooth non-convex regularizers with non-asymptotic convergence.</b> <a href="https://arxiv.org/pdf/1811.11829.pdf">[Paper]</a><a href="https://github.com/qiqi-helloworld/DC-Functions-with-Nonconvex-Nonsmooth-Regularizer">[Code]</a><br />
-Yi Xu, <b>Qi Qi</b>, Qihang Lin, Rong Jin, Tianbao Yang.<br />
-  Proceedings of the 36th International Conference on Machine Learning (<b>ICML 2019</b>).</li></ul> 
-<ul><li><b>Modeling optimization algorithm runtime behavior and its applications.</b> <a href="http://iao.hfuu.edu.cn/images/publications/QWB2017MOARBAIA.pdf">[Paper]</a><br />
-<b>Qi Qi</b>, Thomas Weise, and Bin Li.<br />
-  Proceedings of the Genetic and Evolutionary Computation Conference Companion (<b>GECCO 2017</b>).</li></ul>
-<ul><li><b>Optimization algorithm behavior modeling: A study on the traveling salesman problem[C]</b> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8377576">[Paper]</a><a href="https://github.com/qiqi-helloworld/qiqi-helloworld.github.io/blob/master/ICACI_Slides.pdf">[Slides]</a><br />
-<b>Qi Qi</b>, Thomas Weise, and Bin Li.<br /> 
-  Tenth International Conference on Advanced Computational Intelligence ( <b>ICACI 2018</b>).</li></ul>
-<ul><li><b>Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features[J]</b> <a href="https://www.sciencedirect.com/science/article/pii/S1568494618304903">[Paper]</a><br />
-Thomas Weise, Xiaofeng Wang, <b>Qi Qi</b>, Ke Tang, Bin Li.<br /> 
-Applied Soft Computing, 2018, 73: 366-382.</li></ul>
-    
-  
- 
-
-<!-- <ul><li><b> Tetris Game <a href="https://github.com/qiqi-helloworld/Tetris"/> [Code-Java] </a> <br/></li></ul> --> 
-<!--  <ul><li><b> Battleship Game <a href="https://github.com/qiqi-helloworld/Battleship"/>[Code-Java]</a> <br/></li></ul> --> 
-<!-- <ul><li><b> Scientific Calculator <a href="https://github.com/qiqi-helloworld/Calculator">[Code-Java]</a><br/></li></ul> --> 
-  
-
-<h2>Teaching Assistant</h2>
-<ul><li><b>CS 3330 <a href="https://homepage.cs.uiowa.edu/~sbandyapadhyay/sp2019algo/">Algorithms</a></b><br /> University of Uiowa, Spring 2019<br /> Instructor: <a href="https://homepage.cs.uiowa.edu/~sbandyapadhyay/">Dr. Bandyapadhyay</a></li>
-<li><b>CS 4350 Logic in Computer Science</b><br /> University of Iowa, Fall 2018<br /> Instructor: <a href="https://homepage.cs.uiowa.edu/~hzhang/">Prof. Hantao Zhang</a></li></ul>
-<h2>Selected Awards</h2>
-<ul><li>First Prize of Graduate Scholarship, University of Science and Technology of China, Sep. 2017.</li>
-<li>Outstadning Graduate Awards, Qingdao Technology University, Jul. 2015.</li>
-<li>National Undergraduate Scholarship, <a href="http://en.moe.gov.cn/">Ministry of Education of China</a>, Nov. 2012.</li></ul>
-
-
-<h2>Services</h2>
-  <ul><li> Reveiwers of <a href="https://icml.cc/"> ICML</a>, <a href="https://nips.cc/"> Neurips </a>,  <a href="https://iclr.cc/"> ICLR </a><a href = "https://cvpr2023.thecvf.com/"> CVPR </a>, <a href="https://ijcai-21.org/"> IJCAI </a>,  and so on. </li></ul>
-<!-- <ul><li> The 30th International Joint Conference on Artificial Intelligence <a href="https://ijcai-21.org/"> (IJCAI 2021)</a></li> -->
-<!-- <li>Thirty-eighth International Conference on Machine Learning <a href="https://icml.cc/"> (ICML 2021) </a></li> -->
-<!-- <li>Thirty-fifth Conference on Neural Information Processing Systems <a href="https://nips.cc/Conferences/2021/Dates"> (NeurIPS 2021,2022) </a> </li> -->
-<!-- <li>The Tenth International Conference on Learning Representations <a href="https://iclr.cc/"> (ICLR 2022)</a></li> -->
-<!-- <li> IEEE Transactions on Neural Networks and Learning Systems <a href="https://cis.ieee.org/publications/t-neural-networks-and-learning-systems">(J)</a></li></ul> -->
-
-<a href = 2020FallSeminar.html><h3>2020 Fall Seminar</h3></a>
-<a href = 2020SpringSeminar.html><h3>2021 Spring Seminar</h3></a>
-
-
-<div align = "center" style="display:inline-block;width:208px;"><script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=52is39w2me7&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script></div>
-<div id="footer-text">
+<div class="section">
+    <h2>About</h2>
+    <p>
+        I am a Senior Research Scientist at <a href="https://www.meta.ai/">Meta Superintelligence Labs</a>, where I lead the Llama4 Maverick Long Context post-training. 
+        I received my Ph.D. in Computer Science from the <a href="https://uiowa.edu/">University of Iowa</a>, 
+        advised by Professor <a href="https://people.tamu.edu/~tianbao-yang/">Tianbao Yang</a>.
+    </p>
+     
+    <p>
+       Before joined UIowa, I received master degree from University of Science and Technology of China under the supervision of Prof. Thomas Weise and bachelor degree from Qingdao University of Technology.
+       I was a research scientist intern at Netflix Research with <a href="https://sites.google.com/view/shervinardeshir">Shervin Ardeshir</a> and <a href="https://www.linkedin.com/in/mhtaghavi/">M. Hossein Taghavi</a>, and at Apple Display Team with Mohammad Tofigh.
+    </p>  
 </div>
+<div class="section">
+    <h2>News</h2>
+    <ul>
+        <li class="news-item"><strong>[Apr-2025]</strong> Llama4 Released, try our new model with context length up to 10M! <a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/">Link</a> Try our product! <a href="https://www.meta.ai/">Meta ai</a>.</li>
+        <li class="news-item"><strong>[Nov-2022]</strong> Try our new package <a href="https://github.com/qiqi-helloworld/ABSGD/">ABSGD</a> for handling imbalanced classification! <a href="https://github.com/qiqi-helloworld/ABSGD/blob/main/ABSGD_tutorial.ipynb">Tutorial</a></li>
+        <li class="news-item"><strong>[Oct-2022]</strong> Our ABSGD achieved <strong>1st in ResNet50</strong> (rank 4th of 16 overall) on <a href="https://wilds.stanford.edu/leaderboard/">Stanford WILDS iWildCam</a>! <a href="https://github.com/qiqi-helloworld/ABSGD/tree/main/wilds-competition">Code</a></li>
+        <li class="news-item"><strong>[Aug-2022]</strong> Research intern at Netflix with <a href="https://sites.google.com/view/shervinardeshir">Shervin Ardeshir</a> and <a href="https://www.linkedin.com/in/mhtaghavi/">M. Hossein Taghavi</a></li>
+        <li class="news-item"><strong>[Jan-2022]</strong> Invited talk at UberAI about AUPRC maximization</li>
+    </ul>
+</div> 
+<div class="section">
+    <h2>Selected Publications</h2>
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/advancedif_1.png" alt="AdvancedIF" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">AdvancedIF: Rubric-based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following</div>
+            <div class="publication-authors">Yun He, Wenzhe Li, Hejia Zhang, Songlin Li, Karishma Mandyam, Sopan Khosla, Yuanhao Xiong, Nanshu Wang, Xiaoliang Peng, Beibin Li, Shengjie Bi, Shishir G. Patil, <strong>Qi Qi</strong>, Shengyu Feng, Julian Katz-Samuels, Richard Yuanzhe Pang, Sujan Gonugondla, Hunter Lang, Yue Yu, Yundi Qian, Maryam Fazel-Zarandi, Licheng Yu, Amine Benhalloum, Hany Awadalla, Manaal Faruqui</div>
+            <div class="publication-year">To Appear at ACL 2026 / <a href="https://arxiv.org/abs/2511.10507">paper</a></div>
+           
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/scaling_agent_1.png" alt="Scaling Agent Learning" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">Scaling Agent Learning via Experience Synthesis</div>
+            <div class="publication-authors">Zhaorun Chen, Zhuokai Zhao, Kai Zhang, Bo Liu, <strong>Qi Qi</strong>, Yifan Wu, Tarun Kalluri, Sara Cao, Yuanhao Xiong, Haibo Tong, Huaxiu Yao, Hengduo Li, Jiacheng Zhu, Xian Li, Dawn Song, Bo Li, Jason Weston, Dat Huynh</div>
+            <div class="publication-year">The Fourteenth International Conference on Learning Representations(ICLR)
+
+ 2026 / <a href="https://arxiv.org/abs/2511.03773">paper</a></div>
+            
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/agent_early_experience_1.png" alt="Agent Early Experience" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">Agent Learning via Early Experience</div>
+            <div class="publication-authors">Kai Zhang, Xiangchao Chen, Bo Liu, Tianci Xue, Zeyi Liao, Zhihan Liu, Xiyao Wang, Yuting Ning, Zhaorun Chen, Xiaohan Fu, Jian Xie, Yuxuan Sun, Boyu Gou, <strong>Qi Qi</strong>, Zihang Meng, Jianwei Yang, Ning Zhang, Xian Li, Ashish Shah, Dat Huynh, Hengduo Li, Zi Yang, Sara Cao, Lawrence Jang, Shuyan Zhou, et al.</div>
+            <div class="publication-year">Arxiv 2025 / <a href="https://arxiv.org/abs/2510.08558">paper</a> </div>
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/qcrd_1.png" alt="QCRD" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">QCRD: Quality-guided Contrastive Rationale Distillation for Large Language Models</div>
+            <div class="publication-authors">Wei Wang, Zhaowei Li, Qi Xu, Yiqing Cai, Hang Song, <strong>Qi Qi</strong>, Ran Zhou, Zhida Huang, Tao Wang, Li Xiao</div>
+            <div class="publication-year">Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025 / <a href="https://www.arxiv.org/pdf/2405.13014">paper</a> </div>
+            
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/adfair_clip_1.png" alt="AdFair-CLIP" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">AdFair-CLIP: Adversarial Fair Contrastive Language-Image Pre-training for Chest X-rays</div>
+            <div class="publication-authors">Chenlang Yi, Zizhan Xiong, <strong>Qi Qi</strong>, Xiyuan Wei, Girish Bathla, Ching-Long Lin, Bobak Jack Mortazavi, Tianbao Yang</div>
+            <div class="publication-year">International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2025 / <a href="https://link.springer.com/chapter/10.1007/978-3-032-04978-0_2">paper</a></div>
+            
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/groundinggpt_1.png" alt="GroundingGPT" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">GroundingGPT: Language Enhanced Multi-modal Grounding Model</div>
+            <div class="publication-authors">Zhaowei Li, Qi Xu, Dong Zhang, Hang Song, Yiqing Cai, <strong>Qi Qi</strong>, Ran Zhou, Junting Pan, Zefeng Li, Van Tu Vu, Zhida Huang, Tao Wang</div>
+            <div class="publication-year">Annual Meeting of the Association for Computational Linguistics (ACL) 2024 / <a href="https://arxiv.org/pdf/2401.06071">paper</a> / <a href="https://github.com/lzw-lzw/GroundingGPT">code</a></div>
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/absgd_1.png" alt="ABSGD" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">ABSGD: Attentional Biased Stochastic Gradient for Imbalanced Classification</div>
+            <div class="publication-authors"><strong>Qi Qi</strong>, Yi Xu, Rong Jin, Wotao Yin, Tianbao Yang</div>
+            <div class="publication-year">Transactions on Machine Learning Research (TMLR) 2023 / <a href="https://arxiv.org/pdf/2012.06951.pdf">paper</a> / <a href="https://github.com/qiqi-helloworld/ABSGD">code</a></div>
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/identity_robustness_1.png" alt="Identity Robustness" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">Improving Identity-Robustness for Face Models</div>
+            <div class="publication-authors"><strong>Qi Qi</strong>, Shervin Ardeshir</div>
+            <div class="publication-year">International Conference on Machine Learning (ICML) 2023 SCIS Workshop / <a href="https://arxiv.org/pdf/2304.03838.pdf">paper</a></div>
+          </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/soap_1.png" alt="SOAP" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">Stochastic Optimization of Area Under Precision-Recall Curve for Deep Learning with Provable Convergence</div>
+            <div class="publication-authors"><strong>Qi Qi</strong>, Youzhi Luo, Zhao Xu, Shuiwang Ji, Tianbao Yang</div>
+            <div class="publication-year">Conference on Neural Information Processing Systems (NeurIPS) 2021 (250+ Github Stars) / <a href="https://proceedings.neurips.cc/paper/2021/file/0dd1bc593a91620daecf7723d2235624-Paper.pdf">paper</a> / <a href="https://github.com/Optimization-AI/NeurIPS2021_SOAP">code</a> / <a href="./AUPRC_Poster.pdf">poster</a> / <a href="https://docs.google.com/presentation/d/1BhYeCNWE905ZS4EXibzSvApFBIk_SBywGyIfoMIrISI/edit?usp=sharing">slides</a></div>
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/recover_1.png" alt="RECOVER" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">RECOVER: A Practical Online Method for Distributionally Deep Robust Optimization</div>
+            <div class="publication-authors"><strong>Qi Qi</strong>, Zhishuai Guo, Yi Xu, Rong Jin, Tianbao Yang</div>
+            <div class="publication-year">Conference on Neural Information Processing Systems (NeurIPS) 2021 / <a href="https://proceedings.neurips.cc/paper/2021/file/533fa796b43291fc61a9e812a50c3fb6-Paper.pdf">paper</a> / <a href="https://github.com/qiqi-helloworld/RECOVER">code</a> / <a href="./RECOVER_Poster.pdf">poster</a> / <a href="./Recover_slides_for_Neurips2021.pdf">slides</a></div>
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/metric_learning_1.png" alt="Metric Learning" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">A Simple and Effective Framework for Pairwise Deep Metric Learning</div>
+            <div class="publication-authors"><strong>Qi Qi</strong>, Yan Yan, Xiaoyu Wang, Tianbao Yang</div>
+            <div class="publication-year">European Conference on Computer Vision (ECCV) 2020 / <a href="https://arxiv.org/abs/1912.11194">paper</a> / <a href="https://github.com/qiqi-helloworld/A-Simple-and-Effective-Framework-for-Pairewise-Distance-Metric-Learning">code</a> / <a href="poster_ECCV2020.pdf">poster</a> / <a href="https://www.youtube.com/watch?v=Nkdbt2iP4aY">video</a></div>
+        </div>
+    </div>
+
+    <div class="publication">
+        <div class="publication-image">
+            <img src="images/dc_functions_1.png" alt="DC Functions" onerror="this.src='QiQi_ICON_3.jpg'">
+        </div>
+        <div class="publication-content">
+            <div class="publication-title">Stochastic optimization for DC functions and non-smooth non-convex regularizers with non-asymptotic convergence</div>
+            <div class="publication-authors">Yi Xu, <strong>Qi Qi</strong>, Qihang Lin, Rong Jin, Tianbao Yang</div>
+            <div class="publication-year">International Conference on Machine Learning (ICML) 2019 / <a href="https://arxiv.org/pdf/1811.11829.pdf">paper</a> / <a href="https://github.com/qiqi-helloworld/DC-Functions-with-Nonconvex-Nonsmooth-Regularizer">code</a></div>
+        </div>
+    </div>
 </div>
+
+<div class="section">
+    <h2>Professional Service</h2>
+    <p><strong>Conference Reviewing:</strong> ICML / NeurIPS / ICLR / CVPR / IJCAI</p>
+</div>
+
+<footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #999;">
+    <p>Based on <a href="https://github.com/jonbarron/jonbarron_website" style="color: #999;">Jon Barron's template</a></p>
+</footer>
 </div>
 </body>
 </html>
